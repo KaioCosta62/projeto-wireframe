@@ -47,3 +47,20 @@ h3{
 .menu-mobile{
   display: none;
 }
+
+.subtitulo.center{
+  text-align: center;
+}
+
+.subtitulo h2{
+  font-size: 3.2rem;
+  font-family: 'Sora', sans-serif;
+  line-height: 125%;
+  letter-spacing: -1px;
+  margin-bottom: 8px;
+}
+
+.subtitulo p{
+  color: rgba(255, 255, 255, 0.70);;
+}
+

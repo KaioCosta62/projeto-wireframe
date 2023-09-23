@@ -49,9 +49,21 @@
   .hero .hero-image{
     max-width: 100%;
   }
+
+  .feature-cards{
+    padding: 4rem 0;
+  }
 }
 
 @media(max-width: 600px){
+  .feature-cards .all-cards .card{
+    padding: 4rem;
+  }
+
+  .feature-cards .all-cards .card img{
+    margin-bottom: 3rem;
+  }
+  
   
 }
 
@@ -72,5 +84,4 @@
     padding: 1.5rem 1.5rem;
   }
 
- 
 }
