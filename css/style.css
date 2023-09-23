@@ -151,3 +151,24 @@
   margin-top: 5.6rem;
 }
 
+/* newsletter */
+
+.newsletter{
+  background: var(--gray-colors-200);
+  padding: 15.2rem 0;
+  text-align: center;
+}
+
+.newsletter .subtitulo h2{
+  margin-bottom: 2rem;
+}
+
+.newsletter .subtitulo p{
+  margin-bottom: 6rem;
+  max-width: 694px;
+  margin: 0 auto 6rem auto;
+}
+
+.newsletter .btn-primary{
+  padding: 2rem 4rem;
+}

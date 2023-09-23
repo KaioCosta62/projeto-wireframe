@@ -63,6 +63,10 @@
   .multiples-cards{
     margin-top: 5rem;
   }
+
+  .newsletter{
+    padding: 4rem 0;
+  }
 }
 
 @media(max-width: 600px){
