@@ -146,4 +146,13 @@
     flex-direction: column;
     gap: 2rem;
   }
+
+  .feature-cards .all-cards .card{
+    flex: 1 0 calc(320px - 32px);
+  }
+
+  .multiples-cards .cards{
+    grid-template-columns: repeat(auto-fit, minmax(calc(160px - 32px), 1fr));
+  }
+  
 }
