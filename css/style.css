@@ -125,3 +125,29 @@
 .feature-cards .all-cards .card.white p{
   color: rgba(57, 60, 64, 0.7);
 }
+
+/* multiples-cards */
+
+.multiples-cards{
+  margin-top: 10rem;
+}
+
+.multiples-cards .header-multiples-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.multiples-cards .header-multiples-cards .btn-primary{
+  padding: 2rem 5rem;
+}
+
+.multiples-cards .cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(calc(176px - 32px), 1fr));
+  gap: 32px;
+  margin-top: 5.6rem;
+}
+
