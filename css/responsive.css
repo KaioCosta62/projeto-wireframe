@@ -39,7 +39,6 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .hero .hero-content h1{
@@ -67,6 +66,23 @@
   .newsletter{
     padding: 4rem 0;
   }
+
+  .footer {
+    padding: 4rem 0;
+  }
+
+  .footer .links{
+    justify-content: center;
+  }
+
+  .footer .links img{
+    margin: 0 auto 2rem auto;
+
+  }
+
+  .footer .links .nav-footer{
+    max-width: 100%;
+  }
 }
 
 @media(max-width: 600px){
@@ -77,8 +93,11 @@
   .feature-cards .all-cards .card img{
     margin-bottom: 3rem;
   }
-  
-  
+
+  .feature-cards .header-multiples-cards {
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 @media(max-width: 480px){
@@ -97,5 +116,34 @@
   .hero .hero-content .btn-primary{
     padding: 1.5rem 1.5rem;
   }
+  
+  .footer .links .nav-footer{
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+  }
 
+  .footer .links .nav-footer div:first-child{
+    margin-top: 3rem;
+  }
+
+  .footer .links .nav-footer .sociais li{
+    display: flex;
+    gap: 0rem;
+  }
+  
+  .footer .links .nav-footer h3{
+    width: 150px;
+  }
+
+  .footer .links .nav-footer .sociais span{
+    width: 100px;
+    text-align: left;
+  }
+
+  .footer .copy{
+    flex-direction: column;
+    gap: 2rem;
+  }
 }

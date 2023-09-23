@@ -172,3 +172,81 @@
 .newsletter .btn-primary{
   padding: 2rem 4rem;
 }
+
+/* Footer */
+
+.footer{
+  background: var(--gray-colors-100);
+  padding: 8.8rem 0;
+}
+
+.footer .links{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer .links img{
+  margin-bottom: 3.5rem;
+}
+
+.footer .links p{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.4rem;
+  line-height: 150%;
+  max-width: 300px;
+}
+
+.footer .links .nav-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 77.7rem;
+}
+
+.footer .links .nav-footer h3{
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.footer .links .nav-footer li{
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .links .nav-footer li + li{
+  margin-top: 3.2rem;
+}
+
+.footer .links .nav-footer .sociais li{
+  display: flex;
+  gap: 0.8rem;
+}
+
+.footer .links .nav-footer .sociais li + li{
+  margin-top: 0;
+}
+
+.footer .copy{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .copy p{
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .copy p span{
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer .copy div{
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
